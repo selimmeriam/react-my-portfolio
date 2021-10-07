@@ -5,7 +5,7 @@ export const profileData = [
   {
     id: 0,
     name: 'Meriam Selim',
-    title: 'FullStack Developer',
+    title: 'Software Developer',
     job: 'Freelancer',
     address: '1st. Santa Monica Los Angeles',
     email: 'mselim@gmail.com',
