@@ -4,7 +4,7 @@ This is my portfolio website. It contains information about me, my education, sk
 
 ### Website link of my portfolio website
 
-I would be happy if you pay my portfolio at [Created on StackBlitz ⚡️](https://react-my-portfolio.stackblitz.io) a visit. Feel free to get in touch if you have feedback about it.
+I would be happy if you pay my portfolio at [portfolio.io](https://react-my-portfolio.stackblitz.io) a visit. Feel free to get in touch if you have feedback about it.
 
 ### Technologies used to build this project
 
@@ -25,11 +25,15 @@ Project is created with:
 
 ### Getting the React App running
 
-<ul>
-  <li>Run `npm install` </li>
-  <li>Run `npm start` </li>
-  <li>Navigate to [localhost:3000] to view the app</li>
-  </ul>
+To run this project, install it locally using npm:
+
+```
+$ cd ../portfolio
+$ npm install
+$ npm start
+```
+Then Navigate to [localhost:3000](http://localhost:3000) to view the app
+  
 
 ### Contributing
 
@@ -40,3 +44,5 @@ When contributing to this repository, please first discuss the change you wish t
 ### License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
+[Created on StackBlitz ⚡️] with :heart:
