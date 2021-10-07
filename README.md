@@ -26,9 +26,9 @@ Project is created with:
 ### Getting the React App running
 
 <ul>
-  <li>Run  `npm install ` </li>
-  <li>Run `npm start ` </li>
-  <li>Navigate to <a>localhost:3000</a> to view the app</li>
+  <li>Run `npm install` </li>
+  <li>Run `npm start` </li>
+  <li>Navigate to [localhost:3000] to view the app</li>
   </ul>
 
 ### Contributing
