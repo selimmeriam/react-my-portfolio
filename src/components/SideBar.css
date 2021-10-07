@@ -1,0 +1,63 @@
+.sidebar-container {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background-color: #fff;
+  border-radius: 7px;
+  width: 100%;
+  padding: 1rem 0;
+  display: inline-block;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.sidebar-overview {
+  /*border: 1px solid blue;*/
+  line-height: 18;
+  padding: 20px;
+}
+.sidebar-name {
+  text-transform: uppercase;
+  /*font-weight: bold;
+border:1px solid red;*/
+  font-family: 'Stick No Bills', sans-serif;
+  color: #333;
+}
+.sidebar-job {
+  color: #777;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  /*border:1px solid red;*/
+}
+.sidebar-img {
+  margin-top: -10px;
+  clip-path: polygon(0 9%, 100% 0, 100% 94%, 0 100%);
+}
+.sidebar-img img {
+  width: 100%;
+  /*width: 150px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;*/
+}
+.sidebar-info {
+  border: 1px solid transparent;
+}
+.sidebar-link {
+  text-decoration: none;
+}
+.sidebar-button-component {
+  /*border:1px solid green;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 0;
+  padding: 0.5rem 0;
+}
+.sidebar-button-icon {
+  color: #fff;
+}
+
+@media screen and (max-width: 991px) and (min-width: 576px) {
+  .sidebar-name {
+    font-size: 20px;
+    margin-top: 11px;
+  }
+}

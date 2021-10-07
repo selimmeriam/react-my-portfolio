@@ -1,0 +1,53 @@
+.restimeline-container {
+  border: 1px solid transparent;
+  /*min-height: 630px;*/
+}
+
+h3.restimeline-title {
+  /*border:1px solid red;*/
+  margin-top: 20px;
+  font-size: clamp(1.5rem, 1.2vw, 0.9rem);
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+}
+.restimeline-name {
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 0.2rem;
+}
+.restimeline-dur {
+  font-weight: normal;
+  font-family: 'Lato', sans-serif;
+  color: #333;
+}
+.resttimeline-desc {
+  font-weight: normal;
+  font-family: 'Roboto', sans-serif;
+  color: #989898;
+  display: inline;
+  font-size: clamp(0.8rem, 2vw, 0.9rem);
+}
+.pre-timeline {
+  /*border:1px solid red;*/
+  display: inline-block;
+  /*max-height: 30px;*/
+  margin: -5px 0px 0;
+}
+.pre-timeline .MuiTimelineItem-root {
+  border: 1px solid transparent;
+  margin-left: 20px;
+  margin-top: -5px;
+  padding: 0px;
+}
+
+.pre-timeline .MuiTimelineConnector-root {
+  /*max-height: 15px;*/
+  padding: 1px 0px;
+  background-color: #f0b0a4;
+}
+
+@media screen and (max-width: 800px) {
+  .restimeline-container {
+    margin-bottom: 1.5rem;
+  }
+}

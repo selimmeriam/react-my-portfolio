@@ -1,0 +1,115 @@
+.mobile-header-container {
+  /*border:1px solid red;*/
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 7px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 100%;
+  height: 60px;
+  margin-bottom: 1.5rem;
+  position: relative;
+  z-index: 999;
+}
+.mobile-header-left,
+.mobile-header-right {
+  display: flex;
+  /*border:1px solid red;*/
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.mobile-header-center {
+  /*border:1px solid green;*/
+  flex: 6;
+  margin-left: 20px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.mobile-icon-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  /*border:1px solid red;*/
+  list-style: none;
+}
+.mobile-icon-item {
+  margin-right: 10px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.icon-link {
+  color: #7e7e7e;
+  text-decoration: none;
+}
+.icon-link:hover {
+  color: #ff7961;
+}
+
+.bar-icon {
+  /*border:1px solid red;*/
+  font-size: 20px;
+  margin: 1px 20px;
+  color: #464646;
+  cursor: pointer;
+  padding: 0 5px;
+}
+.bar-icon:hover {
+  color: #ff7961;
+}
+
+.mobile-header-container nav {
+  /*display:none;*/
+  position: absolute;
+  top: 62px;
+  left: -150%;
+  width: 100%;
+  /*height: calc(100vh - 50px );*/
+  height: auto;
+  background-color: rgb(255, 255, 255);
+  transition: 0.5s;
+  list-style: none;
+  border-radius: 6px;
+}
+
+.mobile-header-container .active {
+  /*position: absolute;*/
+  left: 0;
+}
+
+.mobile-list {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  display: block;
+  border-radius: 6px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background-color: #fff;
+  /*border:1px solid black;*/
+}
+
+.mobile-list-item {
+  /*margin-right: 20px;*/
+  font-size: 15px;
+  padding: 1rem 0;
+  border-bottom: 1px solid rgba(255, 121, 97, 0.3);
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: capitalize;
+  list-style: none;
+}
+.mobile-list-item:hover {
+  background-color: rgba(255, 222, 216, 0.3);
+}
+.mobile-list-item > .link {
+  color: black;
+}
+.mobileBar-list-:hover,
+.link:hover {
+  color: #ff7961;
+}

@@ -1,0 +1,9 @@
+.button-component {
+  border: 1px solid transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 0;
+  padding: 0.5rem 0;
+}

@@ -1,0 +1,50 @@
+.timeline-container {
+  border: 1px solid transparent;
+  text-align: left;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  color: #7f7f7f;
+  font-weight: normal;
+}
+.timeline {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid transparent;
+}
+
+.MuiTimelineItem-missingOppositeContent:before {
+  display: none;
+}
+.MuiTimelineConnector-root {
+  border: 1px solid tr;
+  padding: 2px 0px;
+  margin-top: -10px;
+}
+.side-title {
+  color: #000;
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+.sec-timeline {
+  border: 1px solid transparent;
+  display: inline-block;
+  max-height: 30px;
+  margin: 1px 0;
+}
+.sec-timeline .MuiTimelineItem-root {
+  border: 1px solid transparent;
+  margin-left: 19px;
+  margin-top: -10px;
+  padding: 0px;
+  max-height: 10px !important;
+}
+
+.sec-timeline .MuiTimelineConnector-root {
+  max-height: 15px;
+  padding: 1px 0px;
+  background-color: #f0b0a4;
+}
+.sec-timeline p {
+  display: inline;
+  font-size: clamp(0.89rem, 1.5vw, 0.75rem);
+}

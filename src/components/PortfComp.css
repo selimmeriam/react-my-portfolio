@@ -1,0 +1,62 @@
+.portfcomp-container {
+  /*border:1px solid red;*/
+  padding: 0.5rem;
+}
+.portf-card-wrap {
+  border: 1px solid transparent;
+}
+.portfolio--nav {
+  text-align: left;
+  /*border:1px solid red;*/
+  /*margin-bottom: 1.0rem;*/
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  font-weight: normal;
+  padding: 0.3rem;
+}
+.portfolio-item {
+  margin: 0 0.7rem;
+  cursor: pointer;
+}
+.active--portfolio {
+  color: #f44336;
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: bold;
+}
+.all-portf-card {
+  /*border:1px solid yellow;*/
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  max-width: 1200px;
+}
+.bd-grid {
+  display: grid;
+  gap: 1rem;
+}
+.card-button-container {
+  border: 1px solid transparent;
+  display: none;
+}
+
+@media screen and (min-width: 511px) {
+  .all-portf-card {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 769px) {
+  .all-portf-card {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (min-width: 899px) {
+  .all-portf-card {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 1100px) {
+  .all-portf-card {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

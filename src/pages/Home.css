@@ -1,0 +1,62 @@
+.home-container {
+  /*border:1px solid pink;*/
+  display: flex;
+  flex-direction: column;
+  /*align-items: center;*/
+  background-color: #fff;
+  border-radius: 7px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 100%;
+  height: auto;
+  margin: 1rem 0.7rem;
+}
+.about-me-section,
+.services-section {
+  padding: 1rem;
+}
+.skills-section {
+  padding: 1rem 1rem 2rem 1rem;
+}
+
+.home-container h3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: clamp(1.2rem, 1.4vw, 0.9rem);
+  display: inline-block;
+  margin-bottom: 20px;
+}
+h3.home-title {
+  text-align: left;
+  text-transform: capitalize;
+  background-image: linear-gradient(transparent 68%, #ff7961 0%);
+  background-repeat: no-repeat;
+  background-size: 100% 250%;
+  background-position: 0% 65%;
+  transition: background-position 0.5s ease 0s;
+  /*text-decoration: underline dashed #ff7961 5px;*/
+}
+
+h3.home-title:hover {
+  background-position: 0% 100%;
+}
+
+.about-me-desc {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: clamp(1rem, 1.4vw, 0.8rem);
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  /*margin-top: 7px;*/
+}
+
+.services-section {
+  background-color: rgb(255, 248, 247);
+  /*margin:2rem 0;*/
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+@media screen and (max-width: 899px) {
+  .home-container {
+    margin: 1.5rem 0;
+  }
+}

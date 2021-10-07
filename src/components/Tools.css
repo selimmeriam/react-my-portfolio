@@ -1,0 +1,80 @@
+.tool-container {
+  border: 1px solid transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+}
+.tools-container-wrap {
+  /*border:1px solid green;*/
+  display: flex;
+  padding: 0.5rem 0;
+  align-items: center;
+  justify-self: center;
+}
+.tool-card {
+  /*responsive*/
+  max-width: 99%;
+  height: auto;
+  /* */
+  /*centerized*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* */
+}
+img.image {
+  height: 90px;
+  width: 170px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.tool-card > img {
+  max-width: 100%;
+  /*this is the only way to make image responsive inside the flexbox*/
+  margin: auto;
+  display: block;
+}
+.tool-img-wrap {
+  width: 98%;
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 10px;
+  background: #fff;
+  border-radius: 6px;
+}
+
+@media screen and (max-width: 1050px) {
+  .tools-container-wrap {
+    flex-direction: column;
+    margin: 1rem;
+  }
+  img.image {
+    height: 100px;
+    width: 200px;
+    border-radius: 5px;
+    object-fit: cover;
+  }
+}
+@media screen and (max-width: 899px) {
+  .tools-container-wrap {
+    flex-direction: row;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 700px) {
+  .tools-container-wrap {
+    flex-direction: column;
+    margin: 1rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .tool-container {
+    flex-direction: column;
+  }
+  .tools-container-wrap {
+    margin: 0;
+  }
+}
