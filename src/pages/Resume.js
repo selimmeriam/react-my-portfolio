@@ -4,7 +4,6 @@ import { trabajoHistoria, educationHistoria } from '../DataArray';
 import WorkIcon from '@mui/icons-material/Work';
 import AccountBalanceIcon from '@mui/icons-material/AccountBalance';
 import Tools from '../components/Tools';
-import Testmonials from '../components/Testmonials';
 import './Resume.css';
 
 function Resume() {
@@ -28,11 +27,6 @@ function Resume() {
       <div className="project-section">
         <h3 className="resume-title"> Tools</h3>
         <Tools />
-      </div>
-
-      <div className="test-section">
-        <h3 className="resume-title"> Testimonials</h3>
-        <Testmonials />
       </div>
     </div>
   );
