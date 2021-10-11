@@ -48,7 +48,7 @@ img.card-img {
 .card-desc {
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
-  font-size: clamp(0.7rem, 1vw, 0.9rem);
+  font-size: clamp(0.85rem, 1.1vw, 1rem);
   text-align: left;
   color: #989898;
   margin-bottom: 0.3rem;
