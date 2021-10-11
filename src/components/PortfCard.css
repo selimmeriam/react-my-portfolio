@@ -40,7 +40,7 @@ img.card-img {
 .card-title {
   font-family: 'Lato', sans-serif;
   font-weight: normal;
-  font-size: clamp(1rem, 1.4vw, 0.9rem);
+  font-size: clamp(0.9rem, 1.4vw, 1rem);
   margin-top: 0.5rem;
   /*border:1px solid red;*/
   color: #000;
@@ -48,7 +48,7 @@ img.card-img {
 .card-desc {
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
-  font-size: clamp(0.9rem, 1vw, 0.7rem);
+  font-size: clamp(0.7rem, 1vw, 0.9rem);
   text-align: left;
   color: #989898;
   margin-bottom: 0.3rem;
@@ -81,7 +81,7 @@ img.card-img {
   text-transform: capitalize;
   font-family: 'Lato', sans-serif;
   font-weight: bold;
-  font-size: clamp(2.3rem, 2.5vw, 1.5rem);
+  font-size: clamp(1.5rem, 2.5vw, 2.3rem);
   color: #000;
 }
 .dialog-img {
@@ -126,7 +126,7 @@ h3.dialog-title-project:hover {
   line-height: 1.3;
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
-  font-size: clamp(1.1rem, 1vw, 0.7rem);
+  font-size: clamp(1rem, 1.5vw, 2.3rem);
   color: #989898;
 }
 .launch-button {

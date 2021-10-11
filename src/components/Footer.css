@@ -18,12 +18,12 @@
 .footer-name {
   font-family: 'Stick No Bills', 'Oswald', 'Lato', 'Arial', sans-serif;
   font-weight: bold;
-  font-size: clamp(1.2rem, 2vw, 0.8rem);
+  font-size: clamp(0.9rem, 2vw, 1.2rem);
 }
 .footer-res {
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
-  font-size: clamp(0.7rem, 1.5vw, 0.5rem);
+  font-size: clamp(0.7rem, 1.5vw, 0.8rem);
 }
 @media screen and (max-width: 899px) {
   .footer-container {
