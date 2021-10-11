@@ -39,9 +39,7 @@ const theme = createTheme({
 });
 
 function PortfCard({ data }) {
-  //console.log(data)
-  //https://www.youtube.com/watch?v=T2caeX_oHnA
-  //https://www.youtube.com/watch?v=5akdtwtmjZM
+ 
 
   const [open, setOpen] = useState(false);
 
