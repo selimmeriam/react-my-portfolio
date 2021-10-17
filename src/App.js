@@ -43,9 +43,7 @@ export default function App() {
                   <Route exact path="/resume" component={Resume} />
                   <Route exact path="/portfolio" component={Portfolio} />
                   <Route exact path="/contact" component={Contact} />
-                  {/*<Home/>
-              <Resume/>
-              <Portfolio/>*/}
+                 
                 </Switch>
               </Router>
               <Footer />
@@ -54,24 +52,7 @@ export default function App() {
         )}
       </Container>
 
-      {/* 
-      {loading? <Loading/>:(
-     
-        <Grid item xs={12} sm={12} md={4} lg={3} ><SideBar/></Grid>
-        <Grid item  xs={12} sm={12} md={8} lg={8}>
-          <Router>
-            {matchs? <MobileHeader/>:<Header/>}
-            
-             
-             <Route exact path="/resume"  component= {Resume} />
-             <Route exact path="/portfolio"  component= {Portfolio} />
-             <Route exact path="/contact"  component= {Contact} />
-              
-            
-          </Router>
-        
-       }
-   */}
+    
     </>
   );
 }

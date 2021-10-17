@@ -13,6 +13,7 @@
 
 .contact-section {
   padding: 1rem;
+  /*border: 1px solid red;*/
 }
 .contact-section h3 {
   font-family: 'Lato', sans-serif;
@@ -70,6 +71,42 @@ span.contact-icon {
 }
 .desc-social li {
   margin-right: 1.5rem;
+}
+
+.contact-section form {
+  margin-top: 10px;
+  border: 1px solid transparent;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-section input {
+  width: 50%;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid rgba(255, 222, 216, 0.7);
+  margin: 10px 0px;
+  font-size: 14px;
+  padding-left: 10px;
+}
+.contact-section input:focus,
+.contact-section textarea:focus {
+  outline: none;
+}
+.contact-section input::placeholder,
+.contact-section textarea::placeholder {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  font-size: clamp(0.8rem 1.2vw, 1.3rem);
+  font-weight: bold;
+}
+
+.contact-section textarea {
+  width: 90%;
+  margin: 20px 0px;
+  font-size: 14px;
+  padding-left: 10px;
+  border: none;
+  border-bottom: 1px solid rgba(255, 222, 216, 0.7);
 }
 
 @media screen and (max-width: 899px) {
